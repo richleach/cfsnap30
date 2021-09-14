@@ -1,0 +1,22 @@
+body {
+	font-family: 'Hind', sans serif; 
+}
+
+.list-group-item.active{
+	background-color:darkred;
+	border-color:darkred; 
+	color:white;
+}
+
+.panel{
+	background-color:pink;
+	color:darkred;	
+}
+	
+.panel-heading{
+	background-color:pink;
+	color:darkred;	
+}
+.panel-body{
+	background-color:white;		
+}

@@ -1,0 +1,258 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* @import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css"; */
+
+html,
+body {
+  height: 100%;
+}
+.header {
+  color: #3d3d3d;
+  background: rgb(226, 125, 96); /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(226, 125, 96, 1) 0%,
+    rgba(229, 177, 142, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(226, 125, 96, 1) 0%,
+    rgba(229, 177, 142, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    rgba(226, 125, 96, 1) 0%,
+    rgba(229, 177, 142, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e27d60', endColorstr='#e5b18e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  /*background-color:#e27d60;*/
+  border-bottom: 2px #5f5f5f solid;
+  border-top: 2px #5f5f5f solid;
+}
+
+.header-height: {
+  height: 110px;
+}
+
+.social-media-icons {
+  border-radius: 2px;
+  background: #73ad21;
+  padding: 2px;
+  width: 18px;
+  height: 18px;
+}
+
+.socailMedia {
+  padding-top: 9px;
+  /*float: right;*/
+  text-align: right;
+}
+
+.social-media-placement {
+  /*float: right;*/
+}
+
+.header-right-col {
+  text-align: right;
+  margin-right: -5px;
+}
+
+.genCenter {
+  margin-top: -1px;
+  text-shadow: none;
+  -webkit-text-stroke: 2px black;
+}
+
+.genWellnessCenter {
+  font-size: 26px;
+  margin-top: -18px;
+  text-shadow: none;
+  color: #fff;
+  -webkit-text-stroke: 0.75px black;
+  margin-bottom: 10px;
+  line-height: 24px;
+}
+
+.body {
+  background: rgb(65, 179, 163); /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(65, 179, 163, 1) 0%,
+    rgba(10, 219, 219, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(65, 179, 163, 1) 0%,
+    rgba(10, 219, 219, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    rgba(65, 179, 163, 1) 0%,
+    rgba(10, 219, 219, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#41b3a3', endColorstr='#0adbdb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.logo {
+  margin-top: -1px;
+  font-family: "Righteous", cursive;
+  font-size: 58px;
+  color: orange;
+  text-shadow: 2px 2px 2px rgba(3, 3, 3, 1);
+  float: left;
+}
+
+.test-sm {
+  display: inline-block;
+  padding-top: 6px;
+}
+
+.test-btn {
+  margin-top: -6px;
+  margin-bottom: 6px;
+}
+
+.homePageTile {
+  font-family: "Rock Salt", cursive;
+}
+
+.call-us {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  text-align: right;
+  /*float: right;*/
+  margin-top: 10px;
+  color: black;
+}
+
+.pool-temp {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#trainerTable {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.trainer-schedule {
+  min-width: 170px;
+  text-align: center;
+  border: 2px groove #179c9d;
+  margin-top: 13px;
+  /* background-color:#ccc9c9; */
+  font-size: 18px;
+  font-weight: 600;
+  background: rgb(237, 237, 237); /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(237, 237, 237, 1) 0%,
+    rgba(252, 252, 252, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(237, 237, 237, 1) 0%,
+    rgba(252, 252, 252, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    rgba(237, 237, 237, 1) 0%,
+    rgba(252, 252, 252, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#fcfcfc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.footer {
+  color: #3d3d3d;
+  background-color: #e8a87c;
+  border-top: 2px #5f5f5f solid;
+  background: rgb(226, 125, 96); /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(226, 125, 96, 1) 0%,
+    rgba(229, 177, 142, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(226, 125, 96, 1) 0%,
+    rgba(229, 177, 142, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    rgba(229, 177, 142, 1) 0%,
+    rgba(226, 125, 96, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e27d60', endColorstr='#e5b18e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  /*background-color:#e27d60;*/
+  border-bottom: 2px #5f5f5f solid;
+}
+
+.footerColHeader {
+  text-align: center;
+  font-size: 15px;
+  font-family: "PT Sans", sans-serif;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.footerColItems {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (max-width: 768px) {
+  .logo {
+    color: orange;
+    text-shadow: 1px 1px 1px rgba(3, 3, 3, 1);
+    font-size: 38px;
+    text-align: center;
+  }
+
+  .genWellnessCenter {
+    font-size: 22px;
+    text-align: center;
+    margin-top: -5px;
+    text-shadow: none;
+    color: #f6dbdb;
+    -webkit-text-stroke: 0.5px black;
+  }
+
+  .header-height: {
+    height: 319px;
+  }
+
+  .header-right-col {
+    text-align: center;
+  }
+
+  .socailMedia {
+    text-align: center;
+  }
+
+  .social-media-placement {
+  }
+
+  .call-us {
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+  }
+}
+
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .phoneAndTemp {
+      margin: auto;
+      text-align: center;
+    }
+   }
+
+   * {
+     outline: 0px solid red;
+   }
