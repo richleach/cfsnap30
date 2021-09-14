@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comments",
+  "info": {
+    "name": "comments",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "entry": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "comment": {
+      "type": "string",
+      "maxLength": 500
+    },
+    "thumbsUp": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "thumbsDown": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "time": {
+      "type": "string"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "comments"
+    }
+  }
+}
